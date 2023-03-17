@@ -20,6 +20,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import django from "./tech/django.png";
+import djrest from "./tech/djrest.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -27,6 +29,9 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import bi3 from "./bi3.png";
+import daya from "./daya.png";
+import zajel from "./zajel.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -43,6 +48,9 @@ export {
   docker,
   figma,
   git,
+  bi3,
+  zajel,
+  daya,
   html,
   javascript,
   mongodb,
@@ -59,4 +67,6 @@ export {
   carrent,
   jobit,
   tripguide,
+
+  django
 };
