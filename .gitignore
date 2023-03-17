@@ -7,6 +7,8 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# static folder for DigitalOcean App Platform
+_static
 node_modules
 dist
 dist-ssr
