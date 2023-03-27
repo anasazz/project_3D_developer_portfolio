@@ -8,7 +8,7 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
+  <Tilt className='xs:w-[330px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
@@ -39,19 +39,21 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        {/* <p className={styles.sectionSubText}>Introduction</p> */}
+        <h2 className={styles.sectionHeadText}>NOTRE EXPERTISE DIGITALE.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        We are a skilled software developers with experience in TypeScript and
+        Nous sommes une agence de marketing digital offrant des services complets pour aider les entreprises à réussir en ligne. Nous aidons nos clients à élaborer des stratégies de marketing numérique efficaces, à améliorer leur référencement naturel, à exécuter des campagnes publicitaires en ligne, à gérer leurs réseaux sociaux et à analyser les performances de leurs campagnes. Chez THE DM AGENCY, nous travaillons en étroite collaboration avec nos clients pour atteindre leurs objectifs commerciaux
+en ligne.
+        {/* We are a skilled software developers with experience in TypeScript and
         JavaScript, and expertise in frameworks like React,Next js , Vue js , Node.js, Django , Python , Django rest framework , Moongodb , Postgres , Mysql ,  and
         Three.js. We are a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        real-world problems. Let's work together to bring your ideas to life! */}
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

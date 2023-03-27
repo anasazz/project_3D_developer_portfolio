@@ -47,21 +47,45 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Développement Web / Mobile",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
+    title: "Campagnes de Génération de Leads",
     icon: creator,
   },
+  {
+    title: "Campagnes Digitales",
+    icon: creator,
+  },
+  {
+    title: "Audiovisuel",
+    icon: creator,
+  },
+
+  {
+    title: "Graphique Design",
+    icon: creator,
+  },
+
+  {
+    title: "Community Management & E-réputation",
+    icon: creator,
+  },
+  
+
+  // {
+  //   title: "React Native Developer",
+  //   icon: mobile,
+  // },
+  // {
+  //   title: "Backend Developer",
+  //   icon: backend,
+  // },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
