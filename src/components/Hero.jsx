@@ -16,16 +16,15 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, Welcome to  <span className='text-[#ff6c6d]'>DM AGENCY</span>
+            Welcome to  <span className='text-[#ff6c6d]'>DM AGENCY</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm FullStack developer , Mobile Developer, i develop user <br className='sm:block hidden' />
-            interfaces and web applications and Mobile apps
-          </p>
+          Professional digital marketing agency based in TEMARA MOROCCO , we are specialized in Web and Mobile development , the 2D design  , infograph , voice over and ads management
+            </p>
         </div>
       </div>
 
-      {/* <ComputersCanvas /> */}
+      <ComputersCanvas />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
